@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-gradient-to-b from-[#232946] to-[#866877] min-h-screen;
+  }
+  input{
+    @apply w-full p-3 border-2 rounded-lg focus:outline-none shadow;
+  }
+  button{
+    @apply w-[120px] p-3 bg-transparent hover:bg-slate-700 text-white shadow rounded-lg;
+  }
+}
